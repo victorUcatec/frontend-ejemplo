@@ -5,6 +5,7 @@
     <Student
       v-for="student of students"
       :key="student.id"
+      :id = "student.id"
       :first_name="student.first_name"
       :last_name="student.last_name"
     />
